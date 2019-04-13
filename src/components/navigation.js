@@ -1,18 +1,20 @@
 import React, {Component} from 'react';
-import {AppBar, Toolbar, Typography, Button} from '@material-ui/core';
+import {AppBar, Toolbar, Typography, IconButton} from '@material-ui/core';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faFreeCodeCamp, faLinkedinIn, faGithub} from '@fortawesome/free-brands-svg-icons';
 
 const textStyle = {
-    color: 'white',
+    color: 'black',
     flex: 1,
 };
 
 const appBarStyle = {
-    background: 'black'
+    background: 'gainsboro'
 }
 
 const buttonStyle = {
-    color: 'white',
-    borderColor: 'white',
+    color: 'black',
+    margin: "0 0 0 5px",
 }
 
 class Navigation extends Component {
@@ -23,7 +25,15 @@ class Navigation extends Component {
                 <Typography variant="headline" style={textStyle}>
                     Patryk Holodynski
                 </Typography>
-                <Button variant="outlined" href="#" style={buttonStyle} justifyContent="flex-end">GitHub</Button>
+                <IconButton href="#" style={buttonStyle}>
+                    <FontAwesomeIcon icon={faGithub} size="lg"></FontAwesomeIcon>
+                </IconButton>
+                <IconButton href="#" style={buttonStyle}>
+                    <FontAwesomeIcon icon={faLinkedinIn} size="lg"></FontAwesomeIcon>
+                </IconButton>
+                <IconButton href="#" style={buttonStyle}>
+                    <FontAwesomeIcon icon={faFreeCodeCamp} size="lg"></FontAwesomeIcon>
+                </IconButton>
             </Toolbar>
         </AppBar>
       );
