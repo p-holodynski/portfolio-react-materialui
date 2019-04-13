@@ -9,7 +9,7 @@ const textStyle = {
 };
 
 const appBarStyle = {
-    background: 'gainsboro'
+    background: '#eeeeee'
 }
 
 const buttonStyle = {
