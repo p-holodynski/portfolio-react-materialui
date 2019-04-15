@@ -3,6 +3,7 @@ import {AppBar, Toolbar, Typography, IconButton} from '@material-ui/core';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faFreeCodeCamp, faLinkedinIn, faGithub} from '@fortawesome/free-brands-svg-icons';
 
+
 const textStyle = {
     color: 'black',
     flex: 1,
