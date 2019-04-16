@@ -1,7 +1,7 @@
-import React, {Component, Fragment} from 'react';
-import {List, ListSubheader, ListItem, ListItemIcon, ListItemText, Collapse} from '@material-ui/core';
+import React, {Component} from 'react';
+import {List, ListItem, ListItemIcon, ListItemText, Collapse} from '@material-ui/core';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faChevronDown, faChevronUp, faHeart} from '@fortawesome/free-solid-svg-icons'
+import {faChevronDown, faChevronUp} from '@fortawesome/free-solid-svg-icons'
 import {faJs, faReact, faHtml5, faCss3Alt, faBootstrap, faAngular, faJsSquare, faUikit} from '@fortawesome/free-brands-svg-icons';
 
 class NestedList extends Component {

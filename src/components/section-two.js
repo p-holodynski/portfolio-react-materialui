@@ -3,6 +3,7 @@ import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import NestedList from './NestedList';
+import Checklist from './Checklist';
 
 class SectionTwo extends Component {
     render(){
@@ -20,7 +21,7 @@ class SectionTwo extends Component {
                     <Grid container item xs={6} justify="center" direction="column" alignItems="center">
                         <Paper style={{backgroundColor: '#ffffff', padding: '15px',}} elevation={5}>
                             <Typography variant="h5" align="center" style={{fontFamily: 'Playfair Display', padding: '5px 0px 10px 0px', fontSize: '1.75em'}}>
-                            Programmer
+                            Programming
                             </Typography>
                             <NestedList />
                         </Paper>
@@ -29,9 +30,9 @@ class SectionTwo extends Component {
                     <Grid container item xs={6} justify="center" direction="column" alignItems="center">
                         <Paper style={{backgroundColor: '#ffffff', padding: '15px',}} elevation={5}>
                             <Typography variant="h5" align="center" style={{fontFamily: 'Playfair Display', padding: '5px 0px 10px 0px', fontSize: '1.75em'}}>
-                            Traveller
+                            Travelling
                             </Typography>
-                            
+                            <Checklist />
                         </Paper>
                     </Grid>
                 </Grid>
