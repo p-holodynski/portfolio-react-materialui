@@ -36,7 +36,6 @@ class Main extends Component {
                 <FontAwesomeIcon icon={faArrowCircleDown} size="2x" style={{color: '#ffffff'}}></FontAwesomeIcon>
             </IconButton>
             </Grid>
-            <div id='section-two' style={{height: '100vh', backgroundColor: '#d6dde3'}}></div>
         </Fragment>
       );
     }
