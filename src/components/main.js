@@ -30,11 +30,11 @@ class Main extends Component {
                 </Grid>
             </Grid>
             <Grid container direction="column" justify="center" alignItems="center" item xs={12}>
-            <IconButton href="#sticky" className='goDown'>
+            <IconButton href="#section-two">
                 <FontAwesomeIcon icon={faArrowCircleDown} size="2x" style={{color: '#B31212'}}></FontAwesomeIcon>
             </IconButton>
             </Grid>
-            <div id='sticky' style={{height: '400px', backgroundColor: 'grey'}}></div>
+            <div id='section-two' style={{height: '100vh', backgroundColor: 'grey'}}></div>
         </Fragment>
       );
     }
