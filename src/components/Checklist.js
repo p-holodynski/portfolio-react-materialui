@@ -42,25 +42,25 @@ class Checklist extends React.Component {
                 <FormGroup column>
                     <FormControlLabel
                     control={
-                        <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} value="checkedH" />
+                        <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} />
                     }
                     label="Singapore"
                     />
                     <FormControlLabel
                     control={
-                        <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} value="checkedH" />
+                        <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} />
                     }
                     label="Indonesia"
                     />
                     <FormControlLabel
                     control={
-                        <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} value="checkedH" />
+                        <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} />
                     }
                     label="Philippines"
                     />
                     <FormControlLabel
                     control={
-                        <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} value="checkedH" />
+                        <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} />
                     }
                     label="Vietnam"
                     />
@@ -70,25 +70,25 @@ class Checklist extends React.Component {
                 <FormGroup column>
                     <FormControlLabel
                     control={
-                        <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} value="checkedH" />
+                        <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} />
                     }
                     label="Cambodia"
                     />
                     <FormControlLabel
                     control={
-                        <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} value="checkedH" />
+                        <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} />
                     }
                     label="Thailand"
                     />
                     <FormControlLabel
                     control={
-                        <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} value="checkedH" />
+                        <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} />
                     }
                     label="Laos"
                     />
                     <FormControlLabel
                     control={
-                        <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} value="checkedH" />
+                        <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} />
                     }
                     label="Malaysia"
                     />

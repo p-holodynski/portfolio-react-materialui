@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {List, ListItem, ListItemIcon, ListItemText, Collapse} from '@material-ui/core';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faChevronDown, faChevronUp} from '@fortawesome/free-solid-svg-icons'
-import {faJs, faReact, faHtml5, faCss3Alt, faBootstrap, faAngular, faJsSquare, faUikit} from '@fortawesome/free-brands-svg-icons';
+import {faJs, faReact, faHtml5, faCss3Alt, faBootstrap, faJsSquare, faUikit} from '@fortawesome/free-brands-svg-icons';
 
 class NestedList extends Component {
     state = {
@@ -32,12 +32,6 @@ class NestedList extends Component {
                             <FontAwesomeIcon icon={faReact} size="2x" style={{color: '#abe1fd'}}></FontAwesomeIcon>
                         </ListItemIcon>
                         <ListItemText inset primary="React" />
-                        </ListItem>
-                        <ListItem>
-                        <ListItemIcon>
-                            <FontAwesomeIcon icon={faAngular} size="2x" style={{color: '#de6868'}}></FontAwesomeIcon>
-                        </ListItemIcon>
-                        <ListItemText inset primary="Angular" />
                         </ListItem>
                         <ListItem>
                         <ListItemIcon>
