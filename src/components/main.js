@@ -8,33 +8,35 @@ import IconButton from '@material-ui/core/IconButton';
 
 
 const boxStyle = {
-    backgroundColor: '#eeeeee',
-    padding: '10px',
-    width: '300px',
+    backgroundColor: '#ffffff',
+    padding: '15px',
 }
 
 class Main extends Component {
     render() {
       return (
           <Fragment>
-            <Grid container direction="column" justify="center" alignItems="center" style={{minHeight:'80vh'}}>
+            <Grid container direction="column" justify="center" alignItems="center" style={{minHeight:'80vh', backgroundColor: '#acc7dc'}}>
                 <Grid item xs={12}>
                 <Paper style={boxStyle} elevation={5}>
-                    <Typography variant="h5" component="h3" align="center">
-                    “We travel not to escape life, but for life not to escape us.”
+                    <Typography variant="h5" align="center" style={{fontFamily: 'Playfair Display', padding: '5px 0px 10px 0px', fontSize: '1.75em'}}>
+                    Junior Front End Developer
                     </Typography>
-                    <Typography variant="caption" align="right">
-                    Anonymous
+                    <Typography component="p" align="center" style={{fontFamily: 'Roboto Slab', padding: '5px 0px 5px 0px', fontSize: '1em'}}>
+                    HTML | CSS | JavaScript
+                    </Typography>
+                    <Typography component="p" align="center" style={{fontFamily: 'Roboto Slab', padding: '5px 0px 5px 0px', fontSize: '1em'}}>
+                    React | Material-UI | Bootstrap
                     </Typography>
                 </Paper>
                 </Grid>
             </Grid>
-            <Grid container direction="column" justify="center" alignItems="center" item xs={12}>
+            <Grid container direction="column" justify="center" alignItems="center" item xs={12} style={{backgroundColor: '#acc7dc'}}>
             <IconButton href="#section-two">
-                <FontAwesomeIcon icon={faArrowCircleDown} size="2x" style={{color: '#B31212'}}></FontAwesomeIcon>
+                <FontAwesomeIcon icon={faArrowCircleDown} size="2x" style={{color: '#ffffff'}}></FontAwesomeIcon>
             </IconButton>
             </Grid>
-            <div id='section-two' style={{height: '100vh', backgroundColor: 'grey'}}></div>
+            <div id='section-two' style={{height: '100vh', backgroundColor: '#d6dde3'}}></div>
         </Fragment>
       );
     }

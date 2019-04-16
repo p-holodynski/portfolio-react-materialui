@@ -5,16 +5,18 @@ import {faFreeCodeCamp, faLinkedinIn, faGithub} from '@fortawesome/free-brands-s
 
 
 const textStyle = {
-    color: 'black',
+    color: '#ffffff',
     flex: 1,
+    fontFamily: 'Playfair Display',
+    fontSize: '2em',
 };
 
 const appBarStyle = {
-    background: '#eeeeee'
+    background: '#acc7dc'
 }
 
 const buttonStyle = {
-    color: 'black',
+    color: '#ffffff',
     margin: "0 0 0 5px",
 }
 
