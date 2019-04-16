@@ -9,6 +9,7 @@ import CheckBoxOutlineBlankIcon from '@material-ui/icons/CheckBoxOutlineBlank';
 import CheckBoxIcon from '@material-ui/icons/CheckBox';
 import Favorite from '@material-ui/icons/Favorite';
 import FavoriteBorder from '@material-ui/icons/FavoriteBorder';
+import { FormControl } from '@material-ui/core';
 
 const styles = {
   root: {
@@ -20,7 +21,7 @@ const styles = {
   checked: {},
 };
 
-class CheckboxLabels extends React.Component {
+class Checklist extends React.Component {
   state = {
     checkedA: true,
     checkedB: true,
@@ -36,83 +37,70 @@ class CheckboxLabels extends React.Component {
     const { classes } = this.props;
 
     return (
-      <FormGroup row>
-        <FormControlLabel
-          control={
-            <Checkbox
-              checked={this.state.checkedA}
-              onChange={this.handleChange('checkedA')}
-              value="checkedA"
-            />
-          }
-          label="Secondary"
-        />
-        <FormControlLabel
-          control={
-            <Checkbox
-              checked={this.state.checkedB}
-              onChange={this.handleChange('checkedB')}
-              value="checkedB"
-              color="primary"
-            />
-          }
-          label="Primary"
-        />
-        <FormControlLabel control={<Checkbox value="checkedC" />} label="Uncontrolled" />
-        <FormControlLabel disabled control={<Checkbox value="checkedD" />} label="Disabled" />
-        <FormControlLabel
-          disabled
-          control={<Checkbox checked value="checkedE" />}
-          label="Disabled"
-        />
-        <FormControlLabel
-          control={
-            <Checkbox
-              checked={this.state.checkedF}
-              onChange={this.handleChange('checkedF')}
-              value="checkedF"
-              indeterminate
-            />
-          }
-          label="Indeterminate"
-        />
-        <FormControlLabel
-          control={
-            <Checkbox
-              checked={this.state.checkedG}
-              onChange={this.handleChange('checkedG')}
-              value="checkedG"
-              classes={{
-                root: classes.root,
-                checked: classes.checked,
-              }}
-            />
-          }
-          label="Custom color"
-        />
-        <FormControlLabel
-          control={
-            <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} value="checkedH" />
-          }
-          label="Custom icon"
-        />
-        <FormControlLabel
-          control={
-            <Checkbox
-              icon={<CheckBoxOutlineBlankIcon fontSize="small" />}
-              checkedIcon={<CheckBoxIcon fontSize="small" />}
-              value="checkedI"
-            />
-          }
-          label="Custom size"
-        />
-      </FormGroup>
+        <div>
+            <FormControl>
+                <FormGroup column>
+                    <FormControlLabel
+                    control={
+                        <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} value="checkedH" />
+                    }
+                    label="Singapore"
+                    />
+                    <FormControlLabel
+                    control={
+                        <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} value="checkedH" />
+                    }
+                    label="Indonesia"
+                    />
+                    <FormControlLabel
+                    control={
+                        <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} value="checkedH" />
+                    }
+                    label="Philippines"
+                    />
+                    <FormControlLabel
+                    control={
+                        <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} value="checkedH" />
+                    }
+                    label="Vietnam"
+                    />
+                </FormGroup>
+            </FormControl>
+            <FormControl>
+                <FormGroup column>
+                    <FormControlLabel
+                    control={
+                        <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} value="checkedH" />
+                    }
+                    label="Cambodia"
+                    />
+                    <FormControlLabel
+                    control={
+                        <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} value="checkedH" />
+                    }
+                    label="Thailand"
+                    />
+                    <FormControlLabel
+                    control={
+                        <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} value="checkedH" />
+                    }
+                    label="Laos"
+                    />
+                    <FormControlLabel
+                    control={
+                        <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} value="checkedH" />
+                    }
+                    label="Malaysia"
+                    />
+                </FormGroup>
+            </FormControl>
+        </div>
     );
   }
 }
 
-CheckboxLabels.propTypes = {
+Checklist.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(CheckboxLabels);
+export default withStyles(styles)(Checklist);
