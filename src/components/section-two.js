@@ -8,7 +8,7 @@ import Checklist from './Checklist';
 class SectionTwo extends Component {
     render(){
         return (
-            <div id='section-two' style={{height: '105vh', backgroundColor: '#d6dde3'}}>
+            <Grid container id='section-two' style={{height: '105vh', backgroundColor: '#d6dde3'}}>
                 <Grid container item xs={12} justify="center" alignItems="center">
                     <Typography variant="h3" component="h3" align="center" style={{fontFamily: 'Roboto Slab', fontSize: "1.5em", padding: "20px 20px 0px 20px"}}>
                     <span>Hi, my name is Patryk.</span><br/>
@@ -16,7 +16,6 @@ class SectionTwo extends Component {
                     <br/><span>Below are two of my main passions in life:</span>
                     </Typography>
                 </Grid>
-                <hr/>
                 <Grid container style={{height: '80vh'}}>
                     <Grid container item xs={6} justify="center" direction="column" alignItems="center">
                         <Paper style={{backgroundColor: '#ffffff', padding: '15px',}} elevation={5}>
@@ -42,7 +41,7 @@ class SectionTwo extends Component {
                         </Paper>
                     </Grid>
                 </Grid>
-            </div>
+            </Grid>
         );
     }
 }

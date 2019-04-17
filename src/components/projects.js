@@ -11,17 +11,16 @@ import Button from '@material-ui/core/Button';
 class Projects extends Component {
     render(){
         return (
-            <div id='projects' style={{height: '120vh', backgroundColor: '#edece8'}}>
+            <Grid container id='projects' style={{height: '120vh', backgroundColor: '#edece8'}}>
                 <Grid container item xs={12} justify="center" alignItems="center">
                     <Typography variant="h3" component="h3" align="center" style={{fontFamily: 'Roboto Slab', fontSize: "2em", padding: "20px 20px 0px 20px"}}>
                     <span>Projects:</span><br/>
                     <span>I am currently learning React and Material-UI</span>
                     </Typography>
                 </Grid>
-                <hr/>
                 <Grid container style={{height: '100vh'}}>
 
-                <Grid container item xs={3} justify="center" direction="column" alignItems="center">
+                <Grid container item xs={3} sm={3} justify="center" direction="column" alignItems="center">
                         <Card elevation={5} style={{width: '250px', height: '250px'}}>
                             <CardActionArea href="https://p-holodynski.github.io/portfolio/" target="_blank">
                                 <CardMedia
@@ -204,9 +203,8 @@ class Projects extends Component {
                             </CardActions>
                         </Card>
                     </Grid>
-
                 </Grid>
-            </div>
+            </Grid>
         );
     }
 }
