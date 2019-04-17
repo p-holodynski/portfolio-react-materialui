@@ -8,7 +8,6 @@ import Checkbox from '@material-ui/core/Checkbox';
 import Favorite from '@material-ui/icons/Favorite';
 import FavoriteBorder from '@material-ui/icons/FavoriteBorder';
 import { FormControl } from '@material-ui/core';
-import Grid from '@material-ui/core/Grid';
 
 const styles = {
   root: {
