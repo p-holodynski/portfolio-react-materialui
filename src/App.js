@@ -3,6 +3,7 @@ import './App.css';
 import Navigation from './components/navigation';
 import Main from './components/main';
 import SectionTwo from './components/section-two';
+import Projects from './components/projects';
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
         <Navigation />
         <Main />
         <SectionTwo />
+        <Projects />
       </Fragment>
     );
   }
