@@ -11,9 +11,9 @@ import Button from '@material-ui/core/Button';
 class Projects extends Component {
     render(){
         return (
-            <Grid xs="auto" container spacing={24} justify="center" alignItems="center" direction="row" id='projects' style={{backgroundColor: '#edece8', padding: '0px 0px 0px 40px'}}>
-                <Grid item xs={12} style={{margin: '0px 10px 10px 10px'}}>
-                    <Typography variant="h3" component="h3" align="center" style={{fontFamily: 'Roboto Slab', fontSize: "2em", padding: "20px 20px 0px 20px"}}>
+            <Grid xs="auto" container spacing={24} justify="center" alignItems="center" direction="row" id='projects' style={{backgroundColor: '#edece8'}}>
+                <Grid item xs={12}>
+                    <Typography variant="h3" component="h3" align="center" style={{fontFamily: 'Roboto Slab', fontSize: "2em", padding: "20px 0px 0px 10px"}}>
                     <span>Projects:</span><br/>
                     <span>I am currently learning React and Material-UI</span>
                     </Typography>
