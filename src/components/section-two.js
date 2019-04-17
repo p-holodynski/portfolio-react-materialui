@@ -16,8 +16,8 @@ class SectionTwo extends Component {
                     <br/><span>Below are two of my main passions in life:</span>
                     </Typography>
                 </Grid>
-                <Grid container style={{height: '80vh'}}>
-                    <Grid container item xs={6} justify="center" direction="column" alignItems="center">
+                <Grid container style={{height: '80vh'}} justify="center" direction="column" alignItems="center">
+                    <Grid item xs={3}>
                         <Paper style={{backgroundColor: '#ffffff', padding: '15px',}} elevation={5}>
                             <Typography variant="h5" align="center" style={{fontFamily: 'Playfair Display', padding: '5px 0px 10px 0px', fontSize: '1.75em'}}>
                             Programming
@@ -29,7 +29,7 @@ class SectionTwo extends Component {
                         </Paper>
                     </Grid>
                     
-                    <Grid container item xs={6} justify="center" direction="column" alignItems="center">
+                    <Grid item xs={3}>
                         <Paper style={{backgroundColor: '#ffffff', padding: '15px',}} elevation={5}>
                             <Typography variant="h5" align="center" style={{fontFamily: 'Playfair Display', padding: '5px 0px 10px 0px', fontSize: '1.75em'}}>
                             Travelling

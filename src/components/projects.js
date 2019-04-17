@@ -12,15 +12,15 @@ class Projects extends Component {
     render(){
         return (
             <Grid container id='projects' style={{height: '120vh', backgroundColor: '#edece8'}}>
-                <Grid container item xs={12} justify="center" alignItems="center">
+                <Grid container item xs={12} justify="center" alignItems="center" style={{margin: '0px 10px 10px 10px'}}>
                     <Typography variant="h3" component="h3" align="center" style={{fontFamily: 'Roboto Slab', fontSize: "2em", padding: "20px 20px 0px 20px"}}>
                     <span>Projects:</span><br/>
                     <span>I am currently learning React and Material-UI</span>
                     </Typography>
                 </Grid>
-                <Grid container style={{height: '100vh'}}>
+                <Grid container justify="center" alignItems="center" direction="row" style={{height: '100vh', padding: '0px 0px 0px 40px'}} >
 
-                <Grid container item xs={3} sm={3} justify="center" direction="column" alignItems="center">
+                    <Grid item xs={3}>
                         <Card elevation={5} style={{width: '250px', height: '250px'}}>
                             <CardActionArea href="https://p-holodynski.github.io/portfolio/" target="_blank">
                                 <CardMedia
@@ -48,7 +48,7 @@ class Projects extends Component {
                         </Card>
                     </Grid>
 
-                    <Grid container item xs={3} justify="center" direction="column" alignItems="center">
+                    <Grid item xs={3}>
                         <Card elevation={5} style={{width: '250px', height: '250px'}}>
                             <CardActionArea href="https://p-holodynski-portfolio.netlify.com/" target="_blank">
                                 <CardMedia
@@ -76,7 +76,7 @@ class Projects extends Component {
                         </Card>
                     </Grid>
 
-                    <Grid container item xs={3} justify="center" direction="column" alignItems="center">
+                    <Grid item xs={3}>
                         <Card elevation={5} style={{width: '250px', height: '250px'}}>
                             <CardActionArea href="https://fcc-quote-generator-react.netlify.com/" target="_blank">
                                 <CardMedia
@@ -104,7 +104,7 @@ class Projects extends Component {
                         </Card>
                     </Grid>
 
-                    <Grid container item xs={3} justify="center" direction="column" alignItems="center">
+                    <Grid item xs={3}>
                         <Card elevation={5} style={{width: '250px', height: '250px'}}>
                             <CardActionArea href="https://codepen.io/phjoker/full/Qdmevj/" target="_blank">
                                 <CardMedia
@@ -129,7 +129,7 @@ class Projects extends Component {
                         </Card>
                     </Grid>
                     
-                    <Grid container item xs={3} justify="center" direction="column" alignItems="center">
+                    <Grid item xs={3}>
                         <Card elevation={5} style={{width: '250px', height: '250px'}}>
                             <CardActionArea href="https://codepen.io/phjoker/full/ggvgNN/" target="_blank">
                                 <CardMedia
@@ -154,7 +154,7 @@ class Projects extends Component {
                         </Card>
                     </Grid>
 
-                    <Grid container item xs={3} justify="center" direction="column" alignItems="center">
+                    <Grid item xs={3}>
                         <Card elevation={5} style={{width: '250px', height: '250px'}}>
                             <CardActionArea href="https://codepen.io/phjoker/full/mRMvYY/" target="_blank">
                                 <CardMedia
@@ -179,7 +179,7 @@ class Projects extends Component {
                         </Card>
                     </Grid>
 
-                    <Grid container item xs={3} justify="center" direction="column" alignItems="center">
+                    <Grid item xs={3}>
                         <Card elevation={5} style={{width: '250px', height: '250px'}}>
                             <CardActionArea href="https://codepen.io/phjoker/full/EZwwPy/" target="_blank">
                                 <CardMedia
