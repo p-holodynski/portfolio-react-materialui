@@ -16,7 +16,7 @@ class Main extends Component {
     render() {
       return (
           <Fragment>
-            <Grid container xs={12} direction="column" justify="center" alignItems="center" style={{minHeight:'80vh', backgroundColor: '#acc7dc'}}>
+            <Grid container direction="column" justify="center" alignItems="center" style={{minHeight:'80vh', backgroundColor: '#acc7dc'}}>
                 <Grid item xs={12}>
                 <Paper style={boxStyle} elevation={5}>
                     <Typography variant="h5" align="center" style={{fontFamily: 'Playfair Display', padding: '5px 0px 10px 0px', fontSize: '1.75em'}}>

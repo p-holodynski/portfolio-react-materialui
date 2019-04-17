@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import green from '@material-ui/core/colors/green';
@@ -8,6 +8,7 @@ import Checkbox from '@material-ui/core/Checkbox';
 import Favorite from '@material-ui/icons/Favorite';
 import FavoriteBorder from '@material-ui/icons/FavoriteBorder';
 import { FormControl } from '@material-ui/core';
+import Grid from '@material-ui/core/Grid';
 
 const styles = {
   root: {
@@ -35,7 +36,7 @@ class Checklist extends React.Component {
     // const { classes } = this.props;
 
     return (
-        <div>
+      <Fragment>
             <FormControl>
                 <FormGroup column>
                     <FormControlLabel
@@ -92,7 +93,7 @@ class Checklist extends React.Component {
                     />
                 </FormGroup>
             </FormControl>
-        </div>
+            </Fragment>
     );
   }
 }
