@@ -20,7 +20,7 @@ class Projects extends Component {
                 </Grid>
                 <Grid item>
                     <Card elevation={5} style={{width: '250px', height: '250px'}}>
-                        <CardActionArea href="https://p-holodynski.github.io/portfolio/" target="_blank">
+                        <CardActionArea href="https://p-holodynski.github.io/portfolio/" target="_blank" rel="noreferrer">
                             <CardMedia
                             style={{ height: '100px', width: '100%'}}
                             image={'http://getbootstrap.com/docs/4.3/assets/brand/bootstrap-social.png'}
@@ -36,10 +36,10 @@ class Projects extends Component {
                             </CardContent>
                         </CardActionArea>
                         <CardActions>
-                            <Button size="small" color="primary" href="https://p-holodynski.github.io/portfolio/" target="_blank" rel="noopener noreferrer">
+                            <Button size="small" color="primary" href="https://p-holodynski.github.io/portfolio/" target="_blank" rel="noreferrer">
                             GitPage
                             </Button>
-                            <Button size="small" color="primary" href="https://github.com/p-holodynski/portfolio" target="_blank" rel="noopener noreferrer">
+                            <Button size="small" color="primary" href="https://github.com/p-holodynski/portfolio" target="_blank" rel="noreferrer">
                             GitHub
                             </Button>
                         </CardActions>
@@ -63,10 +63,10 @@ class Projects extends Component {
                             </CardContent>
                         </CardActionArea>
                         <CardActions>
-                            <Button size="small" color="primary" href="https://portfolio-react-mdl.netlify.com/" target="_blank" rel="noopener noreferrer">
+                            <Button size="small" color="primary" href="https://portfolio-react-mdl.netlify.com/" target="_blank" rel="noreferrer">
                                 Netlify
                             </Button>
-                            <Button size="small" color="primary" href="https://github.com/p-holodynski/portfolio-react-mdl" target="_blank" rel="noopener noreferrer">
+                            <Button size="small" color="primary" href="https://github.com/p-holodynski/portfolio-react-mdl" target="_blank" rel="noreferrer">
                                 GitHub
                             </Button>
                         </CardActions>
@@ -90,10 +90,10 @@ class Projects extends Component {
                             </CardContent>
                         </CardActionArea>
                         <CardActions>
-                            <Button size="small" color="primary" href="https://fcc-quote-generator-react.netlify.com/" target="_blank" rel="noopener noreferrer">
+                            <Button size="small" color="primary" href="https://fcc-quote-generator-react.netlify.com/" target="_blank" rel="noreferrer">
                                 Netlify
                             </Button>
-                            <Button size="small" color="primary" href="https://github.com/p-holodynski/fcc-quote-generator-react" target="_blank" rel="noopener noreferrer">
+                            <Button size="small" color="primary" href="https://github.com/p-holodynski/fcc-quote-generator-react" target="_blank" rel="noreferrer">
                                 GitHub
                             </Button>
                         </CardActions>
@@ -117,7 +117,7 @@ class Projects extends Component {
                             </CardContent>
                         </CardActionArea>
                         <CardActions>
-                            <Button size="small" color="primary" href="https://codepen.io/phjoker/full/Qdmevj/" target="_blank" rel="noopener noreferrer">
+                            <Button size="small" color="primary" href="https://codepen.io/phjoker/full/Qdmevj/" target="_blank" rel="noreferrer">
                                 CodePen
                             </Button>
                         </CardActions>
@@ -141,7 +141,7 @@ class Projects extends Component {
                             </CardContent>
                         </CardActionArea>
                         <CardActions>
-                            <Button size="small" color="primary" href="https://codepen.io/phjoker/full/ggvgNN/" target="_blank" rel="noopener noreferrer">
+                            <Button size="small" color="primary" href="https://codepen.io/phjoker/full/ggvgNN/" target="_blank" rel="noreferrer">
                                 CodePen
                             </Button>
                         </CardActions>
@@ -165,7 +165,7 @@ class Projects extends Component {
                             </CardContent>
                         </CardActionArea>
                         <CardActions>
-                            <Button size="small" color="primary" href="https://codepen.io/phjoker/full/mRMvYY/" target="_blank" rel="noopener noreferrer">
+                            <Button size="small" color="primary" href="https://codepen.io/phjoker/full/mRMvYY/" target="_blank" rel="noreferrer">
                                 CodePen
                             </Button>
                         </CardActions>
@@ -189,7 +189,7 @@ class Projects extends Component {
                             </CardContent>
                         </CardActionArea>
                         <CardActions>
-                            <Button size="small" color="primary" href="https://codepen.io/phjoker/full/EZwwPy/" target="_blank" rel="noopener noreferrer">
+                            <Button size="small" color="primary" href="https://codepen.io/phjoker/full/EZwwPy/" target="_blank" rel="noreferrer">
                                 CodePen
                             </Button>
                         </CardActions>

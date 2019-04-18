@@ -28,13 +28,13 @@ class Navigation extends Component {
                 <Typography variant="headline" style={textStyle}>
                 Patryk Holodynski
                 </Typography>
-                <IconButton href="https://github.com/p-holodynski" target='_blank' style={buttonStyle}>
+                <IconButton href="https://github.com/p-holodynski" target='_blank' rel="noreferrer" style={buttonStyle}>
                     <FontAwesomeIcon icon={faGithub} size="lg"></FontAwesomeIcon>
                 </IconButton>
-                <IconButton href="https://www.linkedin.com/in/patryk-holodynski/" target='_blank' style={buttonStyle}>
+                <IconButton href="https://www.linkedin.com/in/patryk-holodynski/" target='_blank' rel="noreferrer" style={buttonStyle}>
                     <FontAwesomeIcon icon={faLinkedinIn} size="lg"></FontAwesomeIcon>
                 </IconButton>
-                <IconButton href="https://www.freecodecamp.org/p-holodynski" target='_blank' style={buttonStyle}>
+                <IconButton href="https://www.freecodecamp.org/p-holodynski" target='_blank' rel="noreferrer" style={buttonStyle}>
                     <FontAwesomeIcon icon={faFreeCodeCamp} size="lg"></FontAwesomeIcon>
                 </IconButton>
             </Toolbar>

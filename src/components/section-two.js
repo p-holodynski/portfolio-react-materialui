@@ -8,9 +8,9 @@ import Checklist from './Checklist';
 class SectionTwo extends Component {
     render(){
         return (
-            <Grid xs="auto" container id='section-two' spacing={24} direction="row" justify="center" alignItems="center" style={{backgroundColor: '#d6dde3', paddingBottom: '100px'}}>
+            <Grid xs="auto" container id='section-two' spacing={24} direction="row" justify="center" alignItems="center" style={{backgroundColor: '#d6dde3', paddingBottom: '70px'}}>
                 <Grid item xs={12}>
-                    <Typography variant="h3" component="h3" align="center" style={{fontFamily: 'Roboto Slab', fontSize: "1.5em", padding: "10px 0px 0px 0px"}}>
+                    <Typography variant="h3" component="h3" align="center" style={{fontFamily: 'Roboto Slab', fontSize: "1.5em", padding: "10px 0px 20px 0px"}}>
                     <span>Hi, my name is Patryk.</span><br/>
                     <span>I graduated from the Open University with a BSc degree (Computing & IT).</span>
                     <br/><span>Below are two of my main passions in life:</span>
