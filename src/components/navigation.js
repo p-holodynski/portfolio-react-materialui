@@ -26,7 +26,7 @@ class Navigation extends Component {
         <AppBar position="static" style={appBarStyle}>
             <Toolbar>
                 <Typography variant="headline" style={textStyle}>
-                    Patryk Holodynski
+                Patryk Holodynski
                 </Typography>
                 <IconButton href="https://github.com/p-holodynski" target='_blank' style={buttonStyle}>
                     <FontAwesomeIcon icon={faGithub} size="lg"></FontAwesomeIcon>

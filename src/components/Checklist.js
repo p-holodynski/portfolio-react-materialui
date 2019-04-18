@@ -36,63 +36,63 @@ class Checklist extends React.Component {
 
     return (
       <Fragment>
-            <FormControl>
-                <FormGroup column>
-                    <FormControlLabel
-                    control={
-                        <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />}/>
-                    }
-                    label="Singapore"
-                    />
-                    <FormControlLabel
-                    control={
-                        <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} />
-                    }
-                    label="Indonesia"
-                    />
-                    <FormControlLabel
-                    control={
-                        <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} />
-                    }
-                    label="Philippines"
-                    />
-                    <FormControlLabel
-                    control={
-                        <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} />
-                    }
-                    label="Vietnam"
-                    />
-                </FormGroup>
-            </FormControl>
-            <FormControl>
-                <FormGroup column>
-                    <FormControlLabel
-                    control={
-                        <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} />
-                    }
-                    label="Cambodia"
-                    />
-                    <FormControlLabel
-                    control={
-                        <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} />
-                    }
-                    label="Thailand"
-                    />
-                    <FormControlLabel
-                    control={
-                        <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} />
-                    }
-                    label="Laos"
-                    />
-                    <FormControlLabel
-                    control={
-                        <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} />
-                    }
-                    label="Malaysia"
-                    />
-                </FormGroup>
-            </FormControl>
-            </Fragment>
+        <FormControl>
+          <FormGroup column>
+            <FormControlLabel
+              control={
+                  <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />}/>
+              }
+              label="Singapore"
+              />
+            <FormControlLabel
+              control={
+                  <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} />
+              }
+              label="Indonesia"
+              />
+            <FormControlLabel
+              control={
+                  <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} />
+              }
+              label="Philippines"
+            />
+            <FormControlLabel
+              control={
+                  <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} />
+              }
+              label="Vietnam"
+            />
+          </FormGroup>
+        </FormControl>
+        <FormControl>
+          <FormGroup column>
+            <FormControlLabel
+              control={
+                  <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} />
+              }
+              label="Cambodia"
+            />
+            <FormControlLabel
+              control={
+                  <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} />
+              }
+              label="Thailand"
+            />
+            <FormControlLabel
+              control={
+                  <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} />
+              }
+              label="Laos"
+            />
+            <FormControlLabel
+              control={
+                  <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} />
+              }
+              label="Malaysia"
+            />
+          </FormGroup>
+        </FormControl>
+      </Fragment>
     );
   }
 }
