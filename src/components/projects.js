@@ -47,7 +47,7 @@ class Projects extends Component {
                 </Grid>
                 <Grid item>
                     <Card elevation={5} style={{width: '250px', height: '250px'}}>
-                        <CardActionArea href="https://p-holodynski-portfolio.netlify.com/" target="_blank">
+                        <CardActionArea href="https://portfolio-react-mdl.netlify.com/" target="_blank">
                             <CardMedia
                             style={{ height: '100px', width: '100%'}}
                             image={'http://blog.addthiscdn.com/wp-content/uploads/2014/11/addthis-react-flux-javascript-scaling.png'}
@@ -63,7 +63,7 @@ class Projects extends Component {
                             </CardContent>
                         </CardActionArea>
                         <CardActions>
-                            <Button size="small" color="primary" href="https://p-holodynski-portfolio.netlify.com/" target="_blank" rel="noopener noreferrer">
+                            <Button size="small" color="primary" href="https://portfolio-react-mdl.netlify.com/" target="_blank" rel="noopener noreferrer">
                                 Netlify
                             </Button>
                             <Button size="small" color="primary" href="https://github.com/p-holodynski/portfolio-react-mdl" target="_blank" rel="noopener noreferrer">
