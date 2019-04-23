@@ -37,7 +37,7 @@ class Checklist extends React.Component {
     return (
       <Fragment>
         <FormControl>
-          <FormGroup column>
+          <FormGroup>
             <FormControlLabel
               control={
                   <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />}/>
@@ -65,7 +65,7 @@ class Checklist extends React.Component {
           </FormGroup>
         </FormControl>
         <FormControl>
-          <FormGroup column>
+          <FormGroup>
             <FormControlLabel
               control={
                   <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} />

@@ -16,6 +16,7 @@ class Main extends Component {
     render() {
       return (
           <Fragment>
+            {/* TODO: Need to fix white space on the right side of the main page */}
             <Grid container direction="column" justify="center" alignItems="center" style={{minHeight:'81.5vh', backgroundColor: '#acc7dc'}}>
                 <Grid item xs={12}>
                 <Paper style={boxStyle} elevation={5}>

@@ -8,7 +8,7 @@ import Checklist from './Checklist';
 class SectionTwo extends Component {
     render(){
         return (
-            <Grid xs="auto" container id='section-two' spacing={24} direction="row" justify="center" alignItems="center" style={{backgroundColor: '#d6dde3', paddingBottom: '80px'}}>
+            <Grid container id='section-two' spacing={24} direction="row" justify="center" alignItems="center" style={{backgroundColor: '#d6dde3', paddingBottom: '80px'}}>
                 <Grid item xs={12}>
                     <Typography variant="h3" component="h3" align="center" style={{fontFamily: 'Roboto Slab', fontSize: "1.5em", padding: "10px 0px 20px 0px"}}>
                     <span>Hi, my name is Patryk.</span><br/>

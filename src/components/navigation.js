@@ -12,7 +12,7 @@ const textStyle = {
 };
 
 const appBarStyle = {
-    background: '#acc7dc'
+    background: '#acc7dc',
 }
 
 const buttonStyle = {
