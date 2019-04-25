@@ -8,17 +8,22 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 
+const cardStyle = {
+    margin: '25px',
+}
+
 class Projects extends Component {
+
     render(){
         return (
-            <Grid container spacing={24} justify="center" alignItems="center" direction="row" id='projects' style={{backgroundColor: '#edece8'}}>
+            <Grid container justify="center" alignItems="center" direction="row" id='projects' style={{backgroundColor: '#edece8'}}>
                 <Grid item xs={12}>
-                    <Typography variant="h3" component="h3" align="center" style={{fontFamily: 'Roboto Slab', fontSize: "2em", padding: "20px 0px 0px 10px"}}>
+                    <Typography variant="h3" component="h3" align="center" style={{fontFamily: 'Roboto Slab', fontSize: "2em", padding: "20px 0px 20px 0px"}}>
                     <span>Projects:</span><br/>
                     <span>I am currently learning React and Material-UI</span>
                     </Typography>
                 </Grid>
-                <Grid item>
+                <Grid item xs='auto' style={cardStyle}>
                     <Card elevation={5} style={{width: '250px', height: '250px'}}>
                         <CardActionArea href="https://p-holodynski.github.io/portfolio/" target="_blank" rel="noreferrer">
                             <CardMedia
@@ -45,7 +50,7 @@ class Projects extends Component {
                         </CardActions>
                     </Card>
                 </Grid>
-                <Grid item>
+                <Grid item xs='auto' style={cardStyle}>
                     <Card elevation={5} style={{width: '250px', height: '250px'}}>
                         <CardActionArea href="https://portfolio-react-mdl.netlify.com/" target="_blank">
                             <CardMedia
@@ -72,7 +77,7 @@ class Projects extends Component {
                         </CardActions>
                     </Card>
                 </Grid>
-                <Grid item>
+                <Grid item xs='auto' style={cardStyle}>
                     <Card elevation={5} style={{width: '250px', height: '250px'}}>
                         <CardActionArea href="https://fcc-quote-generator-react.netlify.com/" target="_blank">
                             <CardMedia
@@ -99,7 +104,7 @@ class Projects extends Component {
                         </CardActions>
                     </Card>
                 </Grid>
-                <Grid item>
+                <Grid item xs='auto' style={cardStyle}>
                     <Card elevation={5} style={{width: '250px', height: '250px'}}>
                         <CardActionArea href="https://codepen.io/phjoker/full/Qdmevj/" target="_blank">
                             <CardMedia
@@ -123,7 +128,7 @@ class Projects extends Component {
                         </CardActions>
                     </Card>
                 </Grid>
-                <Grid item>
+                <Grid item xs='auto' style={cardStyle}>
                     <Card elevation={5} style={{width: '250px', height: '250px'}}>
                         <CardActionArea href="https://codepen.io/phjoker/full/ggvgNN/" target="_blank">
                             <CardMedia
@@ -147,7 +152,7 @@ class Projects extends Component {
                         </CardActions>
                     </Card>
                 </Grid>
-                <Grid item>
+                <Grid item xs='auto' style={cardStyle}>
                     <Card elevation={5} style={{width: '250px', height: '250px'}}>
                         <CardActionArea href="https://codepen.io/phjoker/full/mRMvYY/" target="_blank">
                             <CardMedia
@@ -171,7 +176,7 @@ class Projects extends Component {
                         </CardActions>
                     </Card>
                 </Grid>
-                <Grid item>
+                <Grid item xs='auto' style={{margin: '25px'}}>
                     <Card elevation={5} style={{width: '250px', height: '250px'}}>
                         <CardActionArea href="https://codepen.io/phjoker/full/EZwwPy/" target="_blank">
                             <CardMedia

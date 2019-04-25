@@ -6,20 +6,12 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faArrowCircleDown} from '@fortawesome/free-solid-svg-icons';
 import IconButton from '@material-ui/core/IconButton';
 
-
-const boxStyle = {
-    backgroundColor: '#ffffff',
-    padding: '15px',
-}
-
 class Main extends Component {
     render() {
       return (
-          <Fragment>
-            {/* TODO: Need to fix white space on the right side of the main page */}
-            <Grid container direction="column" justify="center" alignItems="center" style={{minHeight:'81.5vh', backgroundColor: '#acc7dc'}}>
-                <Grid item xs={12}>
-                <Paper style={boxStyle} elevation={5}>
+            <Grid container direction="column" justify="flex-end" alignItems="center" style={{height:'91vh', backgroundColor: '#acc7dc'}}>
+                <Grid item xs={7}>
+                <Paper style={{backgroundColor: '#ffffff', padding: '15px'}} elevation={5}>
                     <Typography variant="h5" align="center" style={{fontFamily: 'Playfair Display', padding: '5px 0px 10px 0px', fontSize: '1.75em'}}>
                     Junior Front End Developer
                     </Typography>
@@ -31,13 +23,12 @@ class Main extends Component {
                     </Typography>
                 </Paper>
                 </Grid>
+                <Grid item xs={1} style={{margin: '-8px'}}>
+                <IconButton href="#section-two">
+                    <FontAwesomeIcon icon={faArrowCircleDown} size="2x" style={{color: '#ffffff'}}></FontAwesomeIcon>
+                </IconButton>
+                </Grid>
             </Grid>
-            <Grid container direction="column" justify="center" alignItems="center" item xs={12} style={{backgroundColor: '#acc7dc'}}>
-            <IconButton href="#section-two">
-                <FontAwesomeIcon icon={faArrowCircleDown} size="2x" style={{color: '#ffffff'}}></FontAwesomeIcon>
-            </IconButton>
-            </Grid>
-        </Fragment>
       );
     }
 }
