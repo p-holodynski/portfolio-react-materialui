@@ -10,7 +10,7 @@ class Main extends Component {
     render() {
       return (
           <Fragment>
-            <Grid container direction="column" justify="center" alignItems="center" style={{height:'85vh', backgroundColor: '#acc7dc'}}>
+            <Grid container direction="column" justify="center" alignItems="center" style={{height:'86vh', backgroundColor: '#acc7dc'}}>
                 <Grid item xs='auto'>
                 <Paper style={{backgroundColor: '#ffffff', padding: '15px'}} elevation={5}>
                     <Typography variant="h5" align="center" style={{fontFamily: 'Playfair Display', padding: '5px 0px 10px 0px', fontSize: '1.75em'}}>
