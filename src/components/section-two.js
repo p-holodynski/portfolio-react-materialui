@@ -10,13 +10,13 @@ class SectionTwo extends Component {
         return (
             <Grid container id='section-two' direction="row" justify="center" alignItems="center" style={{backgroundColor: '#d6dde3', height: '115vh'}}>
                 <Grid item xs={12}>
-                    <Typography variant="h3" component="h3" align="center" style={{fontFamily: 'Roboto Slab', fontSize: "1.5em", padding: "10px 0px 0px 0px"}}>
+                    <Typography variant="h3" component="h3" align="center" style={{fontFamily: 'Roboto Slab', fontSize: "1.5em", padding: "10px 0px 10px 0px"}}>
                     <span>Hi, my name is Patryk.</span><br/>
                     <span>I graduated from the Open University with a BSc degree (Computing & IT).</span>
                     <br/><span>Below are two of my main passions in life:</span>
                     </Typography>
                 </Grid>
-                <Grid item xs='auto' style={{margin: '40px'}}>
+                <Grid item xs='auto' style={{paddingRight: '30px'}}>
                     <Paper style={{backgroundColor: '#ffffff', padding: '15px',}} elevation={5}>
                         <Typography variant="h5" align="center" style={{fontFamily: 'Playfair Display', padding: '5px 0px 10px 0px', fontSize: '1.75em'}}>
                         Programming
@@ -27,7 +27,7 @@ class SectionTwo extends Component {
                         <NestedList />
                     </Paper>
                 </Grid>
-                <Grid item xs='auto' style={{margin: '40px'}}>
+                <Grid item xs='auto' style={{paddingLeft: '30px'}}>
                     <Paper style={{backgroundColor: '#ffffff', padding: '15px',}} elevation={5}>
                         <Typography variant="h5" align="center" style={{fontFamily: 'Playfair Display', padding: '5px 0px 10px 0px', fontSize: '1.75em'}}>
                         Travelling
