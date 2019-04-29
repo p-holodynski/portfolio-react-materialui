@@ -1,3 +1,9 @@
 html {
     scroll-behavior: smooth;
 }
+
+/* for debugging
+* {
+    border: 1px solid black;
+}
+*/
