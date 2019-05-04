@@ -15,7 +15,7 @@ class Main extends Component {
     render() {
       return (
           <Fragment>
-            <Grid container direction="column" spacing={40} justify="center" alignItems="center" style={{height: '87vh', backgroundColor: '#acc7dc'}}>
+            <Grid container direction="column" spacing={40} justify="center" alignItems="center" style={{height: '87vh', backgroundColor: '#ff9681'}}>
                 <Grid item xs='auto'>
                 <Paper style={boxStyle} elevation={5}>
                     <Typography variant="h5" align="center" style={{fontFamily: 'Playfair Display', padding: '5px 0px 10px 0px', fontSize: '1.75em'}}>
@@ -30,7 +30,7 @@ class Main extends Component {
                 </Paper>
                 </Grid>
                 </Grid>
-                <Grid container spacing={40} direction="column" justify="center" alignItems="center" xs='auto' style={{backgroundColor: '#acc7dc', paddingBottom: '10px', paddingTop: '-20px'}}>
+                <Grid container spacing={40} direction="column" justify="center" alignItems="center" xs='auto' style={{backgroundColor: '#ff9681', paddingBottom: '10px', paddingTop: '-20px'}}>
                 <IconButton href="#section-two">
                     <FontAwesomeIcon icon={faArrowCircleDown} size="2x" style={{color: '#ffffff'}}></FontAwesomeIcon>
                 </IconButton>

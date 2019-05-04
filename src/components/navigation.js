@@ -12,7 +12,7 @@ const textStyle = {
 };
 
 const appBarStyle = {
-    background: '#acc7dc',
+    background: '#ff9681',
     width: '101.5%',
 }
 
