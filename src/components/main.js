@@ -15,18 +15,17 @@ class Main extends Component {
     render() {
       return (
           <Fragment>
-              {/* TODO: Need to fix white space on the right side of the main page */}
-            <Grid container direction="column" spacing={40} justify="center" alignItems="center" style={{minHeight:'90vh', backgroundColor: '#acc7dc'}}>
-                <Grid item xs={12}>
+            <Grid container direction="column" spacing={40} justify="center" alignItems="center" style={{height: '87vh', backgroundColor: '#acc7dc'}}>
+                <Grid item xs='auto'>
                 <Paper style={boxStyle} elevation={5}>
                     <Typography variant="h5" align="center" style={{fontFamily: 'Playfair Display', padding: '5px 0px 10px 0px', fontSize: '1.75em'}}>
                     Junior Full Stack Developer
                     </Typography>
                     <Typography component="p" align="center" style={{fontFamily: 'Roboto Slab', padding: '5px 0px 5px 0px', fontSize: '1em'}}>
-                    HTML | CSS | JavaScript | PHP
+                    HTML | CSS | JavaScript | PHP | mySQL
                     </Typography>
                     <Typography component="p" align="center" style={{fontFamily: 'Roboto Slab', padding: '5px 0px 5px 0px', fontSize: '1em'}}>
-                    React | Material-UI | Bootstrap
+                    React | Material-UI | Bootstrap | WordPress
                     </Typography>
                 </Paper>
                 </Grid>
