@@ -7,6 +7,10 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
+import reactImage from './img/react.png';
+import angularImage from './img/angular.jpg';
+import bootstrapImage from './img/bootstrap.png';
+import javascriptImage from './img/javascript.png';
 
 const cardStyle = {
     margin: '25px',
@@ -28,7 +32,7 @@ class Projects extends Component {
                         <CardActionArea href="https://p-holodynski.github.io/portfolio/" target="_blank" rel="noreferrer">
                             <CardMedia
                             style={{ height: '100px', width: '100%'}}
-                            image={'http://getbootstrap.com/docs/4.3/assets/brand/bootstrap-social.png'}
+                            image={bootstrapImage}
                             title="Bootstrap"
                             />
                             <CardContent>
@@ -55,7 +59,7 @@ class Projects extends Component {
                         <CardActionArea href="https://portfolio-react-mdl.netlify.com/" target="_blank">
                             <CardMedia
                             style={{ height: '100px', width: '100%'}}
-                            image={'http://blog.addthiscdn.com/wp-content/uploads/2014/11/addthis-react-flux-javascript-scaling.png'}
+                            image={reactImage}
                             title="React"
                             />
                             <CardContent>
@@ -82,7 +86,7 @@ class Projects extends Component {
                         <CardActionArea href="https://fcc-quote-generator-react.netlify.com/" target="_blank">
                             <CardMedia
                             style={{ height: '100px', width: '100%'}}
-                            image={'http://blog.addthiscdn.com/wp-content/uploads/2014/11/addthis-react-flux-javascript-scaling.png'}
+                            image={reactImage}
                             title="React"
                             />
                             <CardContent>
@@ -109,7 +113,7 @@ class Projects extends Component {
                         <CardActionArea href="https://codepen.io/phjoker/full/Qdmevj/" target="_blank">
                             <CardMedia
                             style={{ height: '100px', width: '100%'}}
-                            image={'https://cms-assets.tutsplus.com/uploads/users/1251/posts/30113/preview_image/angular-logo.jpg'}
+                            image={angularImage}
                             title="Angular"
                             />
                             <CardContent>
@@ -133,7 +137,7 @@ class Projects extends Component {
                         <CardActionArea href="https://codepen.io/phjoker/full/ggvgNN/" target="_blank">
                             <CardMedia
                             style={{ height: '100px', width: '100%'}}
-                            image={'https://cms-assets.tutsplus.com/uploads/users/1251/posts/30113/preview_image/angular-logo.jpg'}
+                            image={angularImage}
                             title="Angular"
                             />
                             <CardContent>
@@ -157,7 +161,7 @@ class Projects extends Component {
                         <CardActionArea href="https://codepen.io/phjoker/full/mRMvYY/" target="_blank">
                             <CardMedia
                             style={{ height: '100px', width: '100%'}}
-                            image={'https://cdn-images-1.medium.com/max/1109/1*TWVs8hNCI7B7t2Y4tA-u1A.png'}
+                            image={javascriptImage}
                             title="JavaScript"
                             />
                             <CardContent>
@@ -181,7 +185,7 @@ class Projects extends Component {
                         <CardActionArea href="https://codepen.io/phjoker/full/EZwwPy/" target="_blank">
                             <CardMedia
                             style={{ height: '100px', width: '100%'}}
-                            image={'https://cdn-images-1.medium.com/max/1109/1*TWVs8hNCI7B7t2Y4tA-u1A.png'}
+                            image={javascriptImage}
                             title="JavaScript"
                             />
                             <CardContent>
