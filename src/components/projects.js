@@ -16,7 +16,7 @@ class Projects extends Component {
 
     render(){
         return (
-            <Grid xs="auto" container spacing={24} justify="center" alignItems="center" direction="row" id='projects' style={{backgroundColor: '#edece8'}}>
+            <Grid xs="auto" container spacing={40} justify="center" alignItems="center" direction="row" id='projects' style={{backgroundColor: '#edece8'}}>
                 <Grid item xs={12}>
                     <Typography variant="h3" component="h3" align="center" style={{fontFamily: 'Roboto Slab', fontSize: "2em", padding: "20px 0px 20px 0px"}}>
                     <span>Projects:</span><br/>
