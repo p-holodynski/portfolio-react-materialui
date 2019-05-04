@@ -20,11 +20,12 @@ class Projects extends Component {
 
     render(){
         return (
-            <Grid xs="auto" container spacing={40} justify="center" alignItems="center" direction="row" id='projects' style={{backgroundColor: '#d4f0fc'}}>
+            <Grid xs="auto" container spacing={40} justify="center" alignItems="center" direction="row" id='projects' style={{backgroundColor: '#ff9681'}}>
                 <Grid item xs={12}>
-                    <Typography variant="h3" component="h3" align="center" style={{fontFamily: 'Roboto Slab', fontSize: "2em", padding: "20px 0px 20px 0px"}}>
+                    <Typography variant="h3" component="h3" align="center" style={{fontFamily: 'Roboto Slab', fontSize: "2em", padding: "20px 0px 20px 0px", color: '#ffffff'}}>
                     <span>Projects:</span><br/>
-                    <span>I am currently learning React and Material-UI</span>
+                    <span>I am currently learning:</span><br />
+                    <span>React & Material-UI / PHP / WordPress / mySQL</span><br />
                     </Typography>
                 </Grid>
                 <Grid item xs='auto' style={cardStyle}>
